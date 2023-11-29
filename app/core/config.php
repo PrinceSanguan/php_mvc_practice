@@ -8,6 +8,7 @@ if($_SERVER["SERVER_NAME"] == "localhost")
   define("DBHOST", "localhost");
   define("DBUSER", "root");
   define("DBPASSWORD", "");
+  define("PORT", 3307);
   
   define("ROOT", "http://localhost/php_mvc/public");
 } else 
